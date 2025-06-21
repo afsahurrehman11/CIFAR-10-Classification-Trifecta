@@ -19,10 +19,7 @@ The goal is to compare performance across methods and analyze their effectivenes
 
 ## 📽️ Demo
 
-<video width="640" height="360" controls>
-  <source src="./video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Click to watch demo](./thumbnail.png)](./video.mp4)
 
 ## 📁 Dataset
 
