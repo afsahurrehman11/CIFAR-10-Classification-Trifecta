@@ -19,7 +19,8 @@ The goal is to compare performance across methods and analyze their effectivenes
 
 ## 📽️ Demo
 
-[![Click to watch demo](./thumbnail.png)](./video.mp4)
+🎬 [Watch the demo here](https://github.com/yourusername/yourrepo/releases/tag/v1.0)
+
 
 ## 📁 Dataset
 
