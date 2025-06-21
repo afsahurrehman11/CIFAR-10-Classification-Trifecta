@@ -1,0 +1,12 @@
+The size of the repo was Exceeding 100MB so I have to remove the folders storing the output of trained models, You can rerun the entire code files in everything will be generated again
+
+However the original data Used can easily be found publicly available: CIFAR-10 with Directory structure of:
+	\batches.meta
+	\data_batch_1
+	\data_batch_2
+	\data_batch_3
+	\data_batch_4
+	\data_batch_5
+	\readme.html
+	\test_batch
+
