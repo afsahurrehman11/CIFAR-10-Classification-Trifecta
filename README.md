@@ -1,10 +1,11 @@
-# 🚀 CIFAR-10 Image Classification Project
+<div align="center">
+
+  # 🚀 CIFAR-10 Image Classification Project
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
----
+</div>
 
 ## 🧾 Overview
 
@@ -16,7 +17,12 @@ This project explores three machine learning approaches for **CIFAR-10 image cla
 
 The goal is to compare performance across methods and analyze their effectiveness on this challenging dataset.
 
----
+## 📽️ Demo
+
+<video width="640" height="360" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 📁 Dataset
 
@@ -27,7 +33,6 @@ We use the **CIFAR-10** dataset:
 
 📦 **Note**: Dataset not included in this repository due to size limits (>100MB). It will be auto-downloaded using `torchvision.datasets`.
 
----
 
 ## 🧠 Model Architecture Flow
 
@@ -54,7 +59,6 @@ D --> E
 
 ✅ **Best Performer**: **CNN with 70.98% accuracy**
 
----
 
 ## 🔧 Implementation Breakdown
 
@@ -64,7 +68,6 @@ D --> E
 - Class with **lowest reconstruction error** is predicted  
 - **Best hyperparameter**: `k = 40` components
 
----
 
 ### 2️⃣ Convolutional Neural Network (PyTorch)
 
@@ -80,7 +83,6 @@ Conv2d(3, 32) → ReLU → MaxPool
 - **Best Params**: Learning Rate = `0.0005`, Batch Size = `128`  
 - Trained for **20 epochs**
 
----
 
 ### 3️⃣ Class-wise Autoencoder
 - A separate autoencoder is trained for **each class**  
@@ -88,7 +90,6 @@ Conv2d(3, 32) → ReLU → MaxPool
 - Predict label based on **minimum reconstruction error**  
 - **Best Encoding Dimension**: `128`
 
----
 
 ## ⚙️ Setup & Usage
 
@@ -130,8 +131,8 @@ cifar10-classification/
 
 ---
 
-## 📽️ Demo 
-🎥 [Click here to watch the demo](./video.mkv)
+
+
 
 
 
